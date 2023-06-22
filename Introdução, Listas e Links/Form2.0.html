@@ -1,0 +1,61 @@
+<html><head>
+<title>Formulário de Pré-Matrícula</title>
+</head>
+
+<body bgcolor="whitesmoke" >
+<div id="c">
+<h1>Escola Virtual</h1>
+<h2>Formulário de Pré-Matrícula</h2>
+</div>
+<hr>
+<form method="post" action="" enctype="text/plain">
+<table border="1" cellpadding="10" width="100%"><tr><td>
+
+<b>Dados pessoais:</b>
+<table border="0" width="100%">
+<tr><td align="right">Nome do aluno:</td><td><input type="text" name="nome" size="40"></td></tr>
+<tr><td align="right">Nascimento(dd/mm/aaaa):</td><td><input type="text" size="2" name="dia">/<input type="text" size="2" name="mes">/<input type="text" size="4" name="ano"></td></tr>
+<tr><td align="right">Nome da Mãe:</td><td><input type="text" name="mae" size="40"></td></tr>
+<tr><td align="right">Nome do Pai:</td><td><input type="text" name="pai" size="40"></td></tr>
+<tr><td align="right">Telefone:</td><td>DDD(<input type="text" size="2" name="ddd">) Tel: <input type="text" size="8" name="numero"> Ramal:<input type="text" size="2" name="ramal"></td></tr>
+<tr><td align="right">Email:</td><td><input type="text" size="40" name="email"></td></tr>
+</table>
+
+</td></tr>
+<tr><td>
+
+<b>Informções da matrícula:</b>
+<table border="0" width="100%">
+<tr valign="top"><td>Série:<br><select name="series">
+<option>pré-escolar</option>
+<option>3a série</option>
+<option>2o grau</option>
+</select></td>
+<td>Turno:<br>
+<input type="radio" name="turno" value="M">Manhã<br>
+<input type="radio" name="turno" value="T">Tarde</td>
+<td>Atividade Curricular:<br>
+<input type="checkbox" name="extra" value="Informática" checked="">Informática<br>
+<input type="checkbox" name="extra" value="Música">Música<br>
+<input type="checkbox" name="extra" value="Balet">Balet<br>
+<input type="checkbox" name="extra" value="Pintura">Pintura<br>
+<input type="checkbox" name="extra" value="Judô">Judô<br>
+<input type="checkbox" name="extra" value="Futebol">Futebol</td>
+</tr></table>
+
+</td></tr></table>
+<br>
+<div id="c">
+<input type="submit" value="Envia Formulário" name="B1">
+<input type="reset" value="Limpa Campos" name="B2">
+</div>
+</form>
+
+
+<style>
+#c{
+text-align: center;
+}
+</style>
+
+</body></html>
